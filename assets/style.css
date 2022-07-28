@@ -1,0 +1,40 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* for responsive nav */
+body .container .blog-nav {
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+}
+/* font family for all headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", sans-serif;
+}
+/* navigation css */
+nav .link-secondary {
+    text-decoration: none;
+}
+nav .link-secondary:hover {
+    text-decoration: underline;
+}
+/* header css */
+.blog-logo a {
+    font-family: "Playfair Display", Georgia, "Times New Roman", sans-serif;
+}
+header a{
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+}
+/* font css for blog headings and paragraphs */
+.blog-para-title {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2.5rem;
+}
+.blog-para-meta {
+    color: #6c757d;
+}
