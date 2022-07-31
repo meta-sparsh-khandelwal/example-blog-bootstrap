@@ -9,6 +9,9 @@ body .container .blog-nav {
     flex-wrap: nowrap;
     overflow-y: hidden;
 }
+#main-navbar::-webkit-scrollbar {
+    display: none;
+}
 /* font family for all headings */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Playfair Display", Georgia, "Times New Roman", sans-serif;
